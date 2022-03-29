@@ -1,12 +1,24 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 5px;
+}
+
 .header {
+  background-color: #1f2937;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  padding: 0 100px;
+  padding-top: 25px;
 }
 
 .logo {
-  width: 100px;
+  width: 75px;
 }
 
 .header-links {
@@ -16,5 +28,18 @@
 
 a {
   text-decoration: none;
-  color: #1f2937;
+  color: white;
+}
+
+.title-section {
+  color: white;
+  background-color: #1f2937;
+  display: flex;
+  padding: 30px 100px;
+  gap: 40px;
+}
+
+.solar-image {
+  width: 400px;
+  flex: 0 0 0;
 }
